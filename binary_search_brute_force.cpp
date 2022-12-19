@@ -68,3 +68,13 @@ int main () {
  }
  return 0;
 }
+
+
+// finding time complexity of binary search
+// N -> N/2^0    itr 0
+// N/2 -> N/2^1  itr 1
+// N/4 -> N/2^2  itr 2
+// .
+// .
+// .
+// 1 -> N/2^k    itr k    so N = 2^k => k = logN 
