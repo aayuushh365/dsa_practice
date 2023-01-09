@@ -60,5 +60,4 @@ int main() {
    cout << "W";
    x++;
   }
- 
  }
